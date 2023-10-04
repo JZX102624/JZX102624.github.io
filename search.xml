@@ -33,7 +33,7 @@
       <link href="/2023/10/01/%E7%8A%AF%E8%BF%87%E7%9A%84%E5%BC%B1%E6%99%BA%E9%94%99%E8%AF%AF/"/>
       <url>/2023/10/01/%E7%8A%AF%E8%BF%87%E7%9A%84%E5%BC%B1%E6%99%BA%E9%94%99%E8%AF%AF/</url>
       
-        <content type="html"><![CDATA[<p>1、一定要看清楚要不要加文件，要加的文件后缀名。</p><p>2、一定要看清楚数据范围，要不要开<code>long long</code>、<code>long double</code>、<code>__int128</code>，同时一定不要开小或者开大数组。推荐的方案是 $O(n)$ 算法无脑开 $10^6$，$O(n \log n)$ 算法至少开到 $3*10^5$。</p><p>3、注意输入格式。先输入<code>n</code>还是<code>m</code>？</p><p>4、测试速度的时候要开<code>-Ofast</code>。</p><p>5、在不确定程序能否正常运行的地方加<code>assert</code>。</p><p>6、交程序之前记得用<code>-fsanitize=address,undefined</code>测试一遍，然而用这个编译选项时执行效率会大大降低。</p><h2 id="7、请注意输入中不保证lr你需要交换l和r"><a href="#7、请注意输入中不保证lr你需要交换l和r" class="headerlink" title="7、请注意输入中不保证l&lt;&#x3D;r，如果l&gt;r你需要交换l和r"></a>7、请注意输入中不保证l&lt;&#x3D;r，如果l&gt;r你需要交换l和r</h2><p>8、写乱搞的时候注意卡时，不要卡错了。</p><p>9、当你在这道题上完全卡住的时候，不如去前面的题写几个拍子。</p><p>10、先把所有的题看一遍，确定哪道最可做。</p>]]></content>
+        <content type="html"><![CDATA[<p>1、一定要看清楚要不要加文件，要加的文件后缀名。</p><p>2、一定要看清楚数据范围，要不要开<code>long long</code>、<code>long double</code>、<code>__int128</code>，同时一定不要开小或者开大数组。推荐的方案是 $O(n)$ 算法无脑开 $10^6$，$O(n \log n)$ 算法至少开到 $3*10^5$。</p><p>3、注意输入格式。先输入<code>n</code>还是<code>m</code>？</p><p>4、测试速度的时候要开<code>-Ofast</code>。</p><p>5、在不确定程序能否正常运行的地方加<code>assert</code>。</p><p>6、交程序之前记得用<code>-fsanitize=address,undefined</code>测试一遍，然而用这个编译选项时执行效率会大大降低。</p><h2 id="7、请注意输入中不保证lr你需要交换l和r"><a href="#7、请注意输入中不保证lr你需要交换l和r" class="headerlink" title="7、请注意输入中不保证l&lt;&#x3D;r，如果l&gt;r你需要交换l和r"></a>7、请注意输入中不保证l&lt;&#x3D;r，如果l&gt;r你需要交换l和r</h2><p>8、写乱搞的时候注意卡时，不要卡错了。</p><p>9、当你在这道题上完全卡住的时候，不如去前面的题写几个拍子。</p><p>10、先把所有的题看一遍，确定哪道最可做。</p><p>11、注意大小写。<code>IndSet</code>不是<code>Indset</code>啊。</p>]]></content>
       
       
       <categories>
